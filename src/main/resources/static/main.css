@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-inline {
+    margin-bottom: 20px;
+}
+
+.form-inline .form-group {
+    margin-right: 10px;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+#conversation {
+    margin-top: 30px;
+}
+
+#conversation th, #conversation td {
+    text-align: left;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#conversation th {
+    background-color: #007bff;
+    color: white;
+}
+
+#conversation tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#conversation tr:hover {
+    background-color: #ddd;
+}
+
+#main-content {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
